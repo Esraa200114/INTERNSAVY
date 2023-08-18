@@ -8,6 +8,6 @@
 ### An app that has a timer display and three buttons: Start, Pause, and Stop. People can measure time periods by starting and stopping the timer, and they can also temporarily pause it or reset it to zero.
 
 ## Task 5: A SoundButton App 🎵
-### An app that allows the user to choose a sound effect from a dropdown menu and plays it when the play button is clicked. It also includes a stop button and a pause button.
+### An app that lets users select and play various sound effects like "Dramatic," "Dreaming Harp," and "Reveal." It offers playback controls for play, pause, and stop, utilizing the Android `MediaPlayer` class. The app provides a simple interface with custom UI elements and offers feedback through toast messages.
 
 
