@@ -17,8 +17,8 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button dt_btn;
-    TextView current_time_with_am_and_pm, current_date_with_month_name;
+    private Button dt_btn;
+    private TextView current_time_with_am_and_pm, current_date_with_month_name;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getSupportActionBar().hide();
-        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.red));
+        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.magenta));
 
         InitializeComponents();
         dt_btn.setOnClickListener(new View.OnClickListener() {
