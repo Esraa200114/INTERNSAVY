@@ -2,7 +2,7 @@
 ### An app that can perfrom basic arithmatic operation like addition, subtraction, multiplication and division.
 
 ## Task 3: A Current Date & Time App 📅🕒
-### An app that shows the current date and time when clicking on a button.
+### An Android app that displays the current time and date in specific formats upon button click. It utilizes 'SimpleDateFormat' for time with AM/PM and date with month name.
 
 ## Task 4: A StopWatch App ⏱️
 ### It will work the same as normal handheld timepiece. This application will have three buttons that are: start, stop and hold.
